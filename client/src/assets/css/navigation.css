@@ -1,0 +1,153 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #EDE8D0;
+    opacity: 0.9;
+    
+    
+}
+
+.logo-img{
+  max-height: 90px;
+  max-width: 200px;
+  height: auto;
+  width: auto;
+  display: block;
+  }
+  .logo a {
+      color:  #704214;
+      font-weight: 700;
+  
+  }
+nav{
+    padding: 0 2rem;
+ 
+}
+nav ul{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li .logo {
+   padding: 0;
+   margin: 0;
+}
+
+nav ul li.toggle{
+    order: 1;
+}
+
+nav ul li.menu-item{
+    width: 100%;
+    text-align: center;
+    order: 2;
+    display: none;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: #704214;
+  position: relative;
+  padding-bottom: 5px;
+}
+nav ul li:first-child a:hover::after{
+  display: none;
+}
+
+nav ul li a:hover::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #704214;
+  animation: underline 0.3s ease-out;
+}
+
+nav ul:has(li .menu-btn:checked) .menu-item {
+    display: block;
+  }
+  
+
+nav ul li .menu-btn{
+    display: none;
+}
+
+nav ul li .menu-icon{
+    padding: 28px 20px;
+    cursor: pointer;
+}
+
+
+nav ul li .menu-icon .nav-icon {
+    background: #704214;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background-color 0.2s ease-out;
+  }
+  
+  nav ul li .menu-icon .nav-icon:before,
+  nav ul li .menu-icon .nav-icon:after {
+    background-color: #704214;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 0.2s ease-out;
+  }
+  
+  nav ul li .menu-icon .nav-icon:before {
+    top: -5px;
+  }
+  
+  nav ul li .menu-icon .nav-icon:after {
+    top: 5px;
+  }
+  
+  /* Animate the hamburger menu... */
+  nav ul li .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+  }
+  
+  /* Rotate the first line... */
+  nav ul li .menu-btn:checked ~ .menu-icon .nav-icon::before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+  
+  /* Rotate the last line... */
+  nav ul li .menu-btn:checked ~ .menu-icon .nav-icon::after {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  
+  /* MEDIA QUERIES */
+  @media (min-width: 768px) {
+    nav ul {
+      flex-wrap: nowrap;
+    }
+  
+    nav ul li.menu-item {
+      display: block;
+      width: auto;
+    }
+  
+    nav ul li.logo {
+      flex-grow: 1;
+    }
+  
+    nav ul li.toggle {
+      display: none;
+    }
+  }
+  

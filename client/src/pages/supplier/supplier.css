@@ -1,0 +1,43 @@
+@import '../../assets/css/site.css';
+@import '../../assets/css/navigation.css';
+@import '../../assets/css/btn.css';
+/* @import '../../assets/css/form.css'; */
+@import '../../assets/css/info.css';
+
+
+body{
+    background: #704214;
+}
+h1{
+    color: #f4f4f4;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+#suppliers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 1rem;
+  
+}
+.card {
+  border: solid 5px rgb(0, 0, 0);
+  padding: 15px;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  list-style: none;
+}
+
+
+img {
+  width: 100%;
+  height: 40vh;
+  object-fit: contain;
+}
+li.card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}
+

@@ -1,0 +1,49 @@
+.page-title{
+    text-align: center;
+    background-color: #704214;
+    padding: 0.5rem;
+    color: #f4f4f4;
+    /* border: solid 4px #f4f4f4; */
+    border-radius: 10px;
+  }
+  
+  /* spara knapp */
+  .btn{
+      background-color: #704214;
+      color: white;
+      border-radius: 10px;
+      padding: 0.5rem;
+      border: solid 2px #f4f4f4;
+      display: inline-block;
+      text-align: center;
+      width: 20%;
+      
+  }
+  
+  
+  form {
+      padding: 2rem 0;
+    }
+    
+    form .form-controls {
+      margin-bottom: 0.6rem;
+    }
+    
+    form .form-controls label {
+      display: block;
+      color: #000000;
+    }
+    
+    form .form-controls input,
+    form .form-controls textarea {
+      width: 100%;
+      padding: 0.4rem;
+      border: solid 1px #ddd;
+      outline: none !important;
+    }
+    
+    form .form-controls textarea {
+      height: 10rem;
+    }
+    
+  

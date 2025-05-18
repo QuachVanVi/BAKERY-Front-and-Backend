@@ -1,0 +1,14 @@
+@import '../../../assets/css/site.css';
+@import '../../../assets/css/navigation.css';
+@import '../../../assets/css/form.css';
+@import '../../../assets/css/minimal-form.css';
+@import '../../../assets/css/info.css';
+.page-title{
+    text-align: center;
+    background-color: #704214;
+    padding: 0.5rem;
+    color: #f4f4f4;
+    border: solid 4px #f4f4f4;
+    border-radius: 10px;
+  }
+

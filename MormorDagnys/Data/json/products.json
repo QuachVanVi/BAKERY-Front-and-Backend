@@ -1,0 +1,88 @@
+[
+    {
+        "itemNumber": "K62J21",
+        "id": 1,
+        "productName": "Bröd",
+        "price": 25.95,
+        "quantityPerPackage":7,
+        "weight":"1kg",
+        "imageUrl":"https://res.cloudinary.com/raizo1/image/upload/v1744585489/louise-lyshoj-WHJTaLqonkU-unsplash_shxgs8.jpg"
+
+    },
+    {
+        "itemNumber": "BH28FS",
+        "id": 2,
+        "productName": "Custard Plate",
+        "price": 49.95,
+        "quantityPerPackage":3,
+        "weight":"300g",
+        "imageUrl":"https://res.cloudinary.com/raizo1/image/upload/v1744702728/custard-plate-with-mint-vanilla-pod_e81ldy.jpg"
+
+    },
+    {
+        "itemNumber": "L1S2FN",
+        "id": 3,
+        "productName": "Kakor",
+        "price": 70.00,
+        "quantityPerPackage":1,
+        "weight":"200",
+        "imageUrl":"https://res.cloudinary.com/raizo1/image/upload/v1744585489/ellie-ellien-04yMqTmUeHQ-unsplash_lh890x.jpg"
+    },
+    {
+        "itemNumber": "XAJ21F",
+        "id": 4,
+        "productName": "Croissant",
+        "price": 60.95,
+        "quantityPerPackage":4,
+        "weight":"190g",
+        "imageUrl":"https://res.cloudinary.com/raizo1/image/upload/v1744585489/jocelyn-morales-qqIj5pV48-s-unsplash_bymuct.jpg"
+    },
+
+    {
+        "itemNumber": "FNW1235",
+        "id": 5,
+        "productName": "ChokladMuffins",
+        "price": 40.00,
+        "quantityPerPackage":10,
+        "weight":"210g",
+        "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1744585489/anton-IM-1rvgCF-s-unsplash_icuzxs.jpg"
+    },
+     {
+        "itemNumber": "ABS141",
+        "id": 6,
+        "productName": "Tiramisu",
+        "price": 20.00,
+        "quantityPerPackage":2,
+        "weight":"80g",
+        "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1744585489/anthony-espinosa-6iqpLKqeaE0-unsplash_oxoof3.jpg"
+
+    },
+     {
+        "itemNumber": "JJGK982",
+        "id": 7,
+        "productName": "Princess-Tårta",
+        "price": 89.00,
+        "quantityPerPackage":1,
+        "weight":"210g",
+        "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1744702720/prinsesstartabit2-scaled_agsplf.jpg"
+
+    }, {
+        "itemNumber": "BBNS215",
+        "id": 8,
+        "productName": "Semla",
+        "price": 10.00,
+        "quantityPerPackage":7,
+        "weight":"40g",
+        "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1744671789/poul-hoang-yqYTIoVvMA0-unsplash_n0j5a3.jpg"
+    }
+    , {
+        "itemNumber": "H1O25",
+        "id": 9,
+        "productName": "Dark Chocolate",
+        "price": 20.00,
+        "quantityPerPackage":10,
+        "weight":"20g",
+        "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1744703076/pushpak-dsilva-2UeBOL7UD34-unsplash_uelrbx.jpg"
+    }
+    
+]

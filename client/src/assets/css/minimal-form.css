@@ -1,0 +1,54 @@
+.page-title{
+    text-align: center;
+    background-color: #704214;
+    padding: 0.5rem;
+    color: #f4f4f4;
+    border: solid 4px #f4f4f4;
+    border-radius: 1px;
+  }
+
+  .minimal-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+  }
+  
+  .minimal-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .minimal-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  .minimal-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .minimal-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5a3e2b;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .minimal-form button:hover {
+    background-color: #744f35;
+  }
+  

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+
+@import './navigation.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  font-family:'Inter', sans-serif;
+  position: relative;
+  background-color: #EDE8D0;
+  
+  
+}
+
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 0 2rem 0;
+}
+main{
+  padding: 2rem;
+}
+h1{
+  font-size: 60px;
+}
+
+h1,h2,h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  letter-spacing: 1px;
+    
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+
+@media(max-width: 768px ){
+  .flexbar {
+grid-template-columns: repeat(2,1fr);
+  }
+
+  .flexbar img{
+    height: 100%;
+    width: 40vw;
+  }
+}

@@ -1,0 +1,66 @@
+[
+    {
+        "supplierId" : 1,
+       "supplierName" : "Starbucks AB",
+       "contactPerson":  "Gustav Andersson",
+       "supplierPhone": "070-2194210",
+       "supplierEmail": "starbucks-AB@gmail.com",
+       "imageUrl":"https://res.cloudinary.com/raizo1/image/upload/v1744756586/starbucks-logo1_ue3rqg.jpg"
+    },
+    {
+        "supplierId" : 2,
+        "supplierName" : "Konditori AB",
+        "contactPerson":  "Mathias Salo",
+       "supplierPhone": "070-2552882",
+       "supplierEmail": "KonditoriAB@gmail.com",
+       "imageUrl":"https://res.cloudinary.com/raizo1/image/upload/v1744756736/konditori_logo_webb_j5tjvb.jpg"
+    },
+    {
+        "supplierId" : 3,
+        "supplierName" : "ICA Sverige AB",
+        "contactPerson":  "Eric Lundberg",
+        "supplierPhone": "070-211025",
+        "supplierEmail": "IcaSverige@gmail.com",
+        "imageUrl":"https://res.cloudinary.com/raizo1/image/upload/v1744756585/ICA_supermarket_ln4f2v.jpg"
+    },
+    {
+        "supplierId" : 4,
+        "supplierName" : "EverFresh AB",
+        "contactPerson":  "Klem Thomsen",
+        "supplierPhone": "070-995825",
+        "supplierEmail": "EverFresh@gmail.com",
+        "imageUrl":"https://res.cloudinary.com/raizo1/image/upload/v1744756585/ENF_Logo_WEB_vawasd.webp"
+    },
+    {
+        "supplierId" : 5,
+        "supplierName" : "Willys Bakery",
+        "contactPerson":  "Lina Bergström",
+        "supplierPhone": "070-1234567",
+        "supplierEmail": "WILLY@GMAIL.COM",
+       "imageUrl":"https://res.cloudinary.com/raizo1/image/upload/v1744756737/bgnnus4fqek14jd0nxvs_milako.jpg" 
+    },
+    {
+        "supplierId" : 6,
+        "supplierName" : "Coop Bageri AB",
+        "contactPerson":  "Oskar Lindgren",
+        "supplierPhone": "070-9876543",
+        "supplierEmail":"coopforum@coop.se",
+        "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1744756586/Coop-Produktvarumarke-Logotyp_xr5cul.jpg"
+    },
+    {
+        "supplierId" : 7,
+        "supplierName" : "BILKA Bakery",
+        "contactPerson":  "Maja Eriksson",
+        "supplierPhone": "070-6543210",
+        "supplierEmail": "bilka@gmail.com",
+        "imageUrl":"https://res.cloudinary.com/raizo1/image/upload/v1744756586/Bilka__Unternehmen__logo.svg_ru27m7.png"
+    },
+    {
+        "supplierId" : 8,
+        "supplierName" : "CHOPCHOP",
+        "contactPerson":  "Filip Persson",
+        "supplierPhone": "070-3210987",
+        "supplierEmail": "chopchop@dk.dk",
+        "imageUrl":"https://res.cloudinary.com/raizo1/image/upload/v1744756586/Chop-chop-500x195-suddig_hrbeak.jpg"
+    }
+]

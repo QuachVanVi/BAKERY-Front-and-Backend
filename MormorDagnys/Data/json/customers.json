@@ -1,0 +1,69 @@
+[
+    
+  {
+    "id": 1,
+    "storeName": "Max Burgers",
+    "contactPerson": "Sabina Salazar",
+    "email": "MAX@SE.SE",
+    "phone": "020-24142",
+    "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1746826075/no-image.png_bpijw3.png"
+  },
+  {
+    "id": 2,
+    "storeName": "Green Eats",
+    "contactPerson": "Liam Johnson",
+    "email": "green@eats.com",
+    "phone": "020-24143",
+    "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1746826075/no-image.png_bpijw3.png"
+  },
+  {
+    "id": 3,
+    "storeName": "Fresh Market",
+    "contactPerson": "Emily Carter",
+    "email": "fresh@market.com",
+    "phone": "020-24144",
+    "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1746826075/no-image.png_bpijw3.png"
+  },
+  {
+    "id": 4,
+    "storeName": "Urban Deli",
+    "contactPerson": "Oliver Smith",
+    "email": "urban@deli.com",
+    "phone": "020-24145",
+    "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1746826075/no-image.png_bpijw3.png"
+  },
+  {
+    "id": 5,
+    "storeName": "Sunny Cafe",
+    "contactPerson": "Sophia Lopez",
+    "email": "sunny@cafe.com",
+    "phone": "020-24146",
+    "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1746826075/no-image.png_bpijw3.png"
+  },
+  {
+    "id": 6,
+    "storeName": "City Bites",
+    "contactPerson": "Ethan Brown",
+    "email": "city@bites.com",
+    "phone": "020-24147",
+    "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1746826075/no-image.png_bpijw3.png"
+  },
+  {
+    "id": 7,
+    "storeName": "Tasty Treats",
+    "contactPerson": "Ava Martinez",
+    "email": "tasty@treats.com",
+    "phone": "020-24148",
+    "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1746826075/no-image.png_bpijw3.png"
+  },
+  {
+    "id": 8,
+    "storeName": "Bistro Corner",
+    "contactPerson": "Noah Wilson",
+    "email": "bistro@corner.com",
+    "phone": "020-24149",
+    "imageUrl": "https://res.cloudinary.com/raizo1/image/upload/v1746826075/no-image.png_bpijw3.png"
+  }
+
+
+]

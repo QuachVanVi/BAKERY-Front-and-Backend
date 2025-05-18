@@ -1,0 +1,118 @@
+@import '../../assets/css/site.css';
+@import '../../assets/css/navigation.css';
+@import '../../assets/css/info.css';
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+.layout{
+    display: grid;
+    grid-template-columns:300px 1fr;
+    min-height: 100vh;
+    
+}
+
+ .sidebar{
+    background-color: #704214;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3rem;
+    color: #f4f4f4;
+    z-index: 2;
+}
+.sidebar h2{
+    margin-right:3rem;
+    margin-top: -120px;
+    
+    
+}
+.sidebar p {
+    margin-bottom: 10rem;
+} 
+
+.logo-main-content{
+    width: 200px;
+    height: auto;
+    margin-bottom: 20rem;
+    
+}
+.main-info{
+    background: url('../../assets/images/bakeryshop.jpg')no-repeat center center;
+    position:relative;
+    top: 0;
+    left:0;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(100%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+
+}
+
+.story-text {
+    position:absolute;
+    top: 100%;
+    left: auto;
+
+    padding: 3rem;
+    text-align: center;
+}
+
+.story-text h3 {
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+}
+
+.text-clear {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.text-gray {
+    color: #717171;
+    line-height: 1.6;
+}
+
+@media (max-width: 992px) {
+    .layout {
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto 1fr; 
+    }
+    
+    .sidebar {
+        padding: 1rem;
+        flex-direction:column; 
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .logo-main-content {
+        width: 120px;
+        margin-bottom: 0;
+        order: 1;
+    }
+    
+    .sidebar h2 {
+        margin: 0;
+        order: 3;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .sidebar p {
+        margin: 0;
+        order: 2;
+        text-align: right;
+        flex-grow: 1;
+        padding-left: 1rem;
+    }
+}

@@ -1,0 +1,89 @@
+@import '../../../assets/css/site.css';
+@import '../../../assets/css/navigation.css';
+@import '../../../assets/css/info.css';
+
+
+main{
+  background: #704214;
+}
+
+
+.btn-container:hover, .btn:hover{
+    cursor: pointer;
+}
+section{
+  max-width: 100%;
+}
+
+.details {
+    margin: 3rem 1rem;
+  }
+  
+  .details section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+    background: #833e01;
+    padding: 2rem 0;
+    color: #f4f4f4;
+    border-radius: 0.8rem;
+    border: solid 1px #f4f4f4;
+  }
+  
+  .details img {
+    max-width: 400px;
+    max-height: 500px;
+    border: solid 1px #f4f4f4;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-left: 10%;
+    ;
+  }
+  
+  .details div {
+    width: 80%;
+  }
+  
+  .details div p {
+    color: #fffefd;
+  }
+  
+  .details div p span {
+    color: #ffe600;
+  }
+
+ .page-title{
+  text-align: center;
+  color: white;
+ }
+ 
+
+ .btn{
+  border: solid 2px rgb(255, 255, 255);
+  color: white;
+  font-weight: 600;
+  background-color: red;
+  padding: 8px;
+  border-radius: 40px;
+  margin-top: 50px;
+
+ }
+ @media (max-width: 768px) {
+  .details section {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .details img {
+    margin-left: 0;
+    width: 90%;
+    height: auto;
+  }
+
+  .details div {
+    width: 100%;
+    text-align: center;
+  }
+}
